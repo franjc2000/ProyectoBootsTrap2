@@ -1,0 +1,50 @@
+body {
+    background-color: whitesmoke;
+}
+    .imginicio{
+        width: auto;
+        height: auto;
+    }
+    .textosobremi {
+        font-size:30px;
+    }
+    /* Este código hace un efecto que agranda la imagen cuando te posicionas encima de la misma*/
+    .zoom {
+        transition: transform .2s; 
+    }
+    .zoom:hover {
+        transform: scale(1.1);
+    }
+
+    h3 {
+        background-color: gainsboro;
+    }
+
+    .botonestudios {
+            text-decoration:none;
+            font-weight: 600;
+            font-size: 20px;
+            color:#ffffff;
+            padding-top:15px;
+            padding-bottom:15px;
+            padding-left:40px;
+            padding-right:40px;
+            background-color:#f2595e;
+            border-color: #F69DA1;
+            border-width: 3px;
+            border-style: solid;
+            }
+    .botonestudios:hover {
+        background-color: darkred;
+        color:white;
+        text-decoration: none;
+    }
+
+    .icono {
+        filter: opacity(40%) grayscale(100%);
+        width: 100px;
+        height: 100px;
+    }
+    .icono:hover{
+    filter: opacity(100%);
+    }

@@ -7,6 +7,9 @@ h3 {
 .gift {
     margin-right: 30em;
 }
+
+/* Aquí le doy estilo al formulario */
+
 form {
 	width: 50em;
 }

@@ -9,6 +9,7 @@ body {
         font-size:30px;
     }
     /* Este código hace un efecto que agranda la imagen cuando te posicionas encima de la misma*/
+    /* Lo saqué de esta página: https://comohacerunapagina.es/crear-zoom-en-imagenes-con-css-al-pasar-el-raton-hover-en-wordpress/ */
     .zoom {
         transition: transform .2s; 
     }
@@ -19,7 +20,8 @@ body {
     h3 {
         background-color: gainsboro;
     }
-
+    /* Este es el código del boton, quería que quedara lo más bonito posible y lo saqué de aquí:https://javifont.medium.com/gu%C3%ADa-r%C3%A1pida-para-estilos-css-en-botones-4eaca81ad32a */
+    
     .botonestudios {
             text-decoration:none;
             font-weight: 600;
@@ -39,6 +41,8 @@ body {
         color:white;
         text-decoration: none;
     }
+
+    /*Aquí hago que los iconos se vean más grises y al pasar por encima vuelva el color.*/
 
     .icono {
         filter: opacity(40%) grayscale(100%);
